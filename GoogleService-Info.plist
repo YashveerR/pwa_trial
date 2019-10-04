@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>309833502314-j3466ek4q0ddqoodotbi8r5mrvtovp00.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.309833502314-j3466ek4q0ddqoodotbi8r5mrvtovp00</string>
+	<key>API_KEY</key>
+	<string>AIzaSyATAQlN_svKAm3-GEfPSRy-YbqnwaBpjMA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>309833502314</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.ionic.starter</string>
+	<key>PROJECT_ID</key>
+	<string>pwa-test-pro</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pwa-test-pro.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:309833502314:ios:bb56cf4924bd81b7900413</string>
+	<key>DATABASE_URL</key>
+	<string>https://pwa-test-pro.firebaseio.com</string>
+</dict>
+</plist>

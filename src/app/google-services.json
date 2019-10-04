@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "309833502314",
+    "firebase_url": "https://pwa-test-pro.firebaseio.com",
+    "project_id": "pwa-test-pro",
+    "storage_bucket": "pwa-test-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309833502314:android:802065ff0702ef2e900413",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309833502314-mspaqguo5p9pnjldbdekcguangvv3hbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_bz9VJcv3azYlJyJhXLOUIsn2vT_88jo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309833502314-mspaqguo5p9pnjldbdekcguangvv3hbj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "309833502314-j3466ek4q0ddqoodotbi8r5mrvtovp00.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.ionic.starter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
