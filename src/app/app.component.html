@@ -8,15 +8,26 @@
       </ion-header>
       <ion-content>
         <ion-list>
-          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
-            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; index as i">
+              {{ console.log('----------------> Logging', isLoggedIn$) }}
+              
+            <ion-item *ngIf="!isLoggedIn$; else notShow" [routerDirection]="'root'" [routerLink]="[p.url]">
               <ion-icon slot="start" [name]="p.icon"></ion-icon>
-              <ion-label>
+              <ion-label >
                 {{p.title}}
               </ion-label>
             </ion-item>
+            <ng-template #notShow>
+              <ion-item *ngIf="isLoggedIn$ && i!=2;" [routerDirection]="'root'" [routerLink]="[p.url]">
+                <ion-icon slot="start" [name]="p.icon"></ion-icon>
+                <ion-label >
+                  {{p.title}}
+                </ion-label>
+              </ion-item>
+            </ng-template>
           </ion-menu-toggle>
         </ion-list>
+        
       </ion-content>
     </ion-menu>
     <ion-router-outlet main></ion-router-outlet>
